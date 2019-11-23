@@ -16,4 +16,4 @@ The first argument is the percentage of your terminal window you want the image 
 
 ## Examples
 `bash splash 20 ex/rose.jpg`
-![](ex/rose20.jpg)
+![ ](ex/rose20.jpg)
