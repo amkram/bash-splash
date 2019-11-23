@@ -16,4 +16,8 @@ The first argument is the percentage of your terminal window you want the image 
 
 ## Examples
 `bash splash 20 ex/rose.jpg`
-![ ](ex/rose_20_out.jpg)
+<img src="ex/rose_20_out.jpg" alt="rose20" width="200"/>
+`bash splash 20 ex/dog.png`
+<img src="ex/dog_20_out.jpg" alt="dog20" width="200"/>
+`bash splash 100 ex/dog.png` (vertically composite image)
+<img src="ex/dog_100_out.jpg" alt="dog100" width="200"/>
