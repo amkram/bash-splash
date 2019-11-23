@@ -9,9 +9,11 @@ The smallest display element we have in a terminal is a single character. The un
 
 ## How to run it
 `bash splash {% width} {image}`
+(or `./splash ...`)
 
 The first argument is the percentage of your terminal window you want the image to fill. For example, `50` would scale the image to 50% of the width of your terminal (at the time you run the command).
 
 
 ## Examples
-![`bash splash 20 ex/rose.jpg`](ex/rose20.jpg)
+`bash splash 20 ex/rose.jpg`
+![](ex/rose20.jpg)
