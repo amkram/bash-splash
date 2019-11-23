@@ -2,7 +2,7 @@
 A bash/python script to display an image in a terminal window.
 
 ## Requirements
-Your terminal must support 256 colors. Additionally, Imagemagick and `bc` must be installed on your distribution. <strong> Python 2.x </strong> is required. It should work with any image format that Imagemagicks' `convert` supports.
+Your terminal must support 256 colors. Additionally, Imagemagick and `bc` must be installed on your distribution. <strong> Python 2.x </strong> is required. It should work with any image format that Imagemagick's  `convert` supports.
 
 ## How it works
 The smallest display element we have in a terminal is a single character. The unicode character █ (block) will fill up the entirety of a single character (using font `Lucida Console` at least). By printing many of these characters, issuing color change commands before each one, we can build up an image. The script will take an input image, scale it to an appropriate size, and print one █ for each pixel in the scaled image. The RGB color of each pixel is mapped to the closest color in the 256 color scale (using a helpful function by user MicahElliott).
