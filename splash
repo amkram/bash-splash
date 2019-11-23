@@ -1,0 +1,9 @@
+#!/bin/bash
+
+avail="$(tput cols)"
+cols=$(bc -l <<< "$avail*($1*0.01)")
+convert $2 -resize ${cols%%.*} txt: > pixels
+
+$(python2 process.py)
+
+rm pixels
